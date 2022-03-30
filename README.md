@@ -1,4 +1,4 @@
-# rajeev-k-tomy/magento2-hyva-react-checkout-offline-payments
+# magento2-hyva-react-checkout-offline-payments
 
 Magento 2 offline payment method renderers for [Hyvä React Checkout](https://github.com/hyva-themes/magento2-hyva-checkout)
 
