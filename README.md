@@ -18,6 +18,7 @@ Magento 2 offline payment method renderers for [Hyvä React Checkout](https://gi
         }
     },
     ```
+    Please note this version is intended to use with [Hyvä React Checkout Example](https://github.com/hyva-themes/magento2-checkout-example) module.
 2. Run `npm install`. This will do all necessary setup for you.
 3. Run `npm run build` to build a new version of the build js file which will now include this payment renderer.
 4. You can include following translations through your Hyvä React Checkout module.
