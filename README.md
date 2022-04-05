@@ -18,7 +18,17 @@ Magento 2 offline payment method renderers for [Hyvä React Checkout](https://gi
         }
     },
     ```
-    Please note this version is intended to use with [Hyvä React Checkout Example](https://github.com/hyva-themes/magento2-checkout-example) module.
+
+    Please note if you want to use this with [Hyvä React Checkout Example](https://github.com/hyva-themes/magento2-checkout-example) module, then use the below config setting.
+
+    ```
+    "config": {
+        "paymentMethodsRepo": {
+            "offline": "git@github.com:rajeev-k-tomy/magento2-hyva-react-checkout-offline-payments.git -b hyva-checkout-example-template"
+        }
+    },
+    ```
+
 2. Run `npm install`. This will do all necessary setup for you.
 3. Run `npm run build` to build a new version of the build js file which will now include this payment renderer.
 4. You can include following translations through your Hyvä React Checkout module.
@@ -31,7 +41,9 @@ Magento 2 offline payment method renderers for [Hyvä React Checkout](https://gi
 
 ## Supported Offline Payment Methods
 
-Magento 2 offline methods are Check / Money order, Bank transfer, Cash on delivery and Purchase order. Among these methods, currently purchase order is supported here.
+Magento 2 offline methods are Check / Money order, Bank transfer, Cash on delivery and Purchase order. All methods are now supported.
+
+However, if you use the [hyva-checkout-example-template](https://github.com/rajeev-k-tomy/magento2-hyva-react-checkout-offline-payments/tree/hyva-checkout-example-template), then it only supports purchase order method at the moment. Rest of the methods needs to be modified to make it work with the example-template module.
 
 ## More Reading
 
