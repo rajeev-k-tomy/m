@@ -1,6 +1,6 @@
 import BankTransfer from './src/components/bankTransfer';
 import CheckMoneyOrder from './src/components/checkMoney';
-import PurchaseOrder from './src/components/purcahseOrder';
+import PurchaseOrder from './src/components/purchaseOrder';
 import CashOnDelivery from './src/components/cashOnDelivery';
 
 const offlinePaymentRenderers = {
