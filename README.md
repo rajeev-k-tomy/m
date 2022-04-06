@@ -2,6 +2,8 @@
 
 Magento 2 offline payment method renderers for [Hyvä React Checkout](https://github.com/hyva-themes/magento2-hyva-checkout)
 
+**Note: This work is now officially moved to the repository [hyva-themes/magento2-react-checkout-offline-payments](https://github.com/hyva-themes/magento2-react-checkout-offline-payments)**
+
 ## Prerequisites
 
 1.  **[Hyvä Checkout](https://github.com/hyva-themes/magento2-hyva-checkout)** is installed and setup with your Magento site.
